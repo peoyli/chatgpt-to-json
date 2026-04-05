@@ -20,15 +20,19 @@ A Node.js script that extracts shared ChatGPT conversations with proper metadata
 1. Clone or download the script
 ```bash
 git clone https://github.com/peoyli/chatgpt-to-json.git
+cd chatgpt-to-json
 ```
 
-2. Install dependencies and Chromium (Playwright will be automatically installed):
+2. Install everything with one command:
 ```bash
-# Install dependencies
-npm install
+npm run setup
+```
 
-# Install Chromium browser
+2. or, alternative setup (step-by-step):
+```bash
+npm install
 npm run install-browsers
+npm run install-deps
 ```
 
 ## Usage
