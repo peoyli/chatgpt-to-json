@@ -5,8 +5,8 @@
   "main": "scrape.js",
   "scripts": {
     "start": "node scrape.js",
-    "install-browsers": "playwright install chromium --quiet",
-    "install-deps": "playwright install-deps --quiet 2>/dev/null || echo \"System dependencies installed (if needed)\"",
+    "install-browsers": "playwright install chromium",
+    "install-deps": "playwright install-deps 2>/dev/null || echo \"System dependencies installed (if needed)\"",
     "setup": "npm install && npm run install-browsers && npm run install-deps"
   },
   "keywords": ["chatgpt", "scraper", "json"],
