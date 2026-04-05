@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Playwright browsers
+*.local/
+
+# Output files
+chat_*.json
+
+# OS files
+.DS_Store
+Thumbs.db

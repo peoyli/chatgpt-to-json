@@ -1,0 +1,16 @@
+{
+  "name": "chatgpt-to-json",
+  "version": "1.0.0",
+  "description": "Scrape shared ChatGPT conversations to JSON",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js"
+    "install-browsers": "playwright install chromium"
+  },
+  "keywords": ["chatgpt", "scraper", "json"],
+  "author": "P-O Yliniemi",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}
